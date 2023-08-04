@@ -31,24 +31,6 @@ final class RootViewModel: ObservableObject {
     func onSplashDone(){
         self.status = .loaded
     }
-    
-    /*func onLogin(user: String, password: String) {
-    // Set status to loading
-        //status = .loading
-        
-        repository.login(withUser: user, andPassword: password)
-            .sink { completion in
-                switch completion {
-                case .failure(_): // NO ES NINGUNA TONTERÍA PONERLE _ PORQUE SI NO TE CHILLA EL COMPILADOR
-                    print("Error while login")
-                    self.status = .error(error: "Error while login")
-                case .finished:
-                    print("Login finished")
-                    self.status = .loaded
-                }
-            } receiveValue: { token in
-                print(token)
-            }.store(in: &subscribers)
-    }*/
+
 }
 

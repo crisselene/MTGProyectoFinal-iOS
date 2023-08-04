@@ -399,7 +399,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "33E8843D-6ACD-4614-B5D3-17FD81AFC702"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MTGProyectoFinal/Presentation/Home/HomeViewModel.swift"
@@ -464,6 +464,36 @@
                   moduleName = "MTGProyectoFinal"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/n169863/Library/CloudStorage/OneDrive-SantanderOffice365/Escritorio/iOS-Training-23-3T/MTGProyectoFinal/MTGProyectoFinal/Presentation/Home/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "1528">
+               </Location>
+               <Location
+                  uuid = "33E8843D-6ACD-4614-B5D3-17FD81AFC702 - 3f937f7dc44ca259"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 @Swift.MainActor () -&gt; () in MTGProyectoFinal.HomeViewModel.init(repository: MTGProyectoFinal.RepositoryProtocol) -&gt; MTGProyectoFinal.HomeViewModel"
+                  moduleName = "MTGProyectoFinal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/n169863/Library/CloudStorage/OneDrive-SantanderOffice365/Escritorio/iOS-Training-23-3T/MTGProyectoFinal/MTGProyectoFinaliOS/MTGProyectoFinal/Presentation/Home/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "1520">
+               </Location>
+               <Location
+                  uuid = "33E8843D-6ACD-4614-B5D3-17FD81AFC702 - e38820c92f102c58"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 @Swift.MainActor () -&gt; () in MTGProyectoFinal.HomeViewModel.init(repository: MTGProyectoFinal.RepositoryProtocol) -&gt; MTGProyectoFinal.HomeViewModel"
+                  moduleName = "MTGProyectoFinal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/n169863/Library/CloudStorage/OneDrive-SantanderOffice365/Escritorio/iOS-Training-23-3T/MTGProyectoFinal/MTGProyectoFinaliOS/MTGProyectoFinal/Presentation/Home/HomeViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "28"
