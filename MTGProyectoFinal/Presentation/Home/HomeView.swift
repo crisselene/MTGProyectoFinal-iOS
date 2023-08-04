@@ -17,14 +17,12 @@ struct HomeView: View {
     
     var body: some View {
         NavigationStack {
-            List{
-                ForEach(homeViewModel.cards, id: \.self) { card in
-                    CardCellView(card: card)
+            List (homeViewModel.cards, id: \.self){ card in
+                NavigationLink(destination: DetailView(card: card)){
+                    CardCellView(card: card)}
                 }
-            }
         }
-            .navigationTitle("MTGuide") // Título de la lista
-            .navigationBarTitleDisplayMode(.inline) // Meter en el centro el título pequeño
+        .navigationTitle("MTGuide") // Título de la lista
     }
 }
 

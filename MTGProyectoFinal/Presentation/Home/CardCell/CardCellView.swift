@@ -24,13 +24,13 @@ struct CardCellView: View {
                 AsyncImage(url: URL(string: card.imageUrl ?? ""),
                            content: { image in
                                image.resizable()
-                        .aspectRatio(contentMode: .fill)
+                                    .aspectRatio(contentMode: .fill)
                                     .frame(width: 70, height: 130)
                                     .padding(20)
                            },
                            placeholder: {
                                ProgressView()
-                           })
+                            })
 
                 
                 // Nombre y descripción alineados al principio

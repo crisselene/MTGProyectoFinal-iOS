@@ -22,9 +22,9 @@ final class HomeViewModel: ObservableObject {
                     print("Unable to get cards from api")
                     return
                 }
-                self.cards = cardsFromApi
-                let prueba = self.cards[0].manaCost.replacingOccurrences(of: "}", with: "} ")
-                print(prueba.components(separatedBy: " "))
+
+                //filter only cards with image
+                self.cards = cardsFromApi.filter({ $0.imageUrl != nil })
             }
         }
     }
