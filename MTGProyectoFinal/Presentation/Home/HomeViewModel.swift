@@ -23,7 +23,6 @@ final class HomeViewModel: ObservableObject {
                     return
                 }
                 self.cards = cardsFromApi
-                print(self.cards.first?.manaCost)
                 let prueba = self.cards[0].manaCost.replacingOccurrences(of: "}", with: "} ")
                 print(prueba.components(separatedBy: " "))
             }

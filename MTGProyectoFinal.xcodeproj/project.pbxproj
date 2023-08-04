@@ -24,6 +24,7 @@
 		ADB2D9252A7A5DD400A37E08 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D9242A7A5DD400A37E08 /* RootView.swift */; };
 		ADB2D9272A7A5FC200A37E08 /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D9262A7A5FC200A37E08 /* RootViewModel.swift */; };
 		ADB2D92A2A7A708100A37E08 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D9292A7A708100A37E08 /* SplashView.swift */; };
+		ADB2D96A2A7D020700A37E08 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D9692A7D020700A37E08 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		ADB2D9262A7A5FC200A37E08 /* RootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModel.swift; sourceTree = "<group>"; };
 		ADB2D9292A7A708100A37E08 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		ADB2D9672A7B91A700A37E08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		ADB2D9692A7D020700A37E08 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailView.swift; path = ../../../../../DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 		ADB2D90C2A7938B600A37E08 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				ADB2D9682A7D00E800A37E08 /* Detail */,
 				ADB2D9282A7A6E2100A37E08 /* Splash */,
 				ADB2D9232A7A5DC200A37E08 /* Root */,
 				ADB2D90D2A7938C100A37E08 /* Home */,
@@ -245,6 +248,14 @@
 				ADB2D9292A7A708100A37E08 /* SplashView.swift */,
 			);
 			path = Splash;
+			sourceTree = "<group>";
+		};
+		ADB2D9682A7D00E800A37E08 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				ADB2D9692A7D020700A37E08 /* DetailView.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -384,6 +395,7 @@
 				ADB2D90B2A79318200A37E08 /* Card.swift in Sources */,
 				ADB2D92A2A7A708100A37E08 /* SplashView.swift in Sources */,
 				ADB2D8DF2A792EF200A37E08 /* MTGProyectoFinalApp.swift in Sources */,
+				ADB2D96A2A7D020700A37E08 /* DetailView.swift in Sources */,
 				ADB2D9142A7A4B9C00A37E08 /* HomeView.swift in Sources */,
 				ADB2D9102A79390800A37E08 /* CardCellView.swift in Sources */,
 				ADB2D9192A7A530800A37E08 /* RepositoryProtocol.swift in Sources */,

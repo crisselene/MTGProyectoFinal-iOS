@@ -16,16 +16,15 @@ struct HomeView: View {
     }
     
     var body: some View {
-        VStack {
-            Text("Home")
+        NavigationStack {
             List{
                 ForEach(homeViewModel.cards, id: \.self) { card in
                     CardCellView(card: card)
                 }
             }
-           
         }
-        .padding()
+            .navigationTitle("MTGuide") // Título de la lista
+            .navigationBarTitleDisplayMode(.inline) // Meter en el centro el título pequeño
     }
 }
 
