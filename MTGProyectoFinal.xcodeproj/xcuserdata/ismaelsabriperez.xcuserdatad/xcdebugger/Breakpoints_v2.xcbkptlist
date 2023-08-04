@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BC05F652-718D-459C-B4AB-64A84DE7447C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "40C395A7-FAE5-4372-97C7-A3A00A6D32CA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MTGProyectoFinal/Data/Remote/Datasource/RemoteDatasourceImpl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "getCards(name:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "40C395A7-FAE5-4372-97C7-A3A00A6D32CA - 48d8c523f7fe61d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for MTGProyectoFinal.RemoteDataSourceImpl.getCards(name: Swift.String) async throws -&gt; Swift.Optional&lt;Swift.Array&lt;MTGProyectoFinal.Card&gt;&gt;"
+                  moduleName = "MTGProyectoFinal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ismaelsabriperez/Downloads/MTGProyectoFinal/MTGProyectoFinal/Data/Remote/Datasource/RemoteDatasourceImpl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "512">
+               </Location>
+               <Location
+                  uuid = "40C395A7-FAE5-4372-97C7-A3A00A6D32CA - 48d8c523f7fe61d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for MTGProyectoFinal.RemoteDataSourceImpl.getCards(name: Swift.String) async throws -&gt; Swift.Optional&lt;Swift.Array&lt;MTGProyectoFinal.Card&gt;&gt;"
+                  moduleName = "MTGProyectoFinal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ismaelsabriperez/Downloads/MTGProyectoFinal/MTGProyectoFinal/Data/Remote/Datasource/RemoteDatasourceImpl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "520">
+               </Location>
+               <Location
+                  uuid = "40C395A7-FAE5-4372-97C7-A3A00A6D32CA - 48d8c523f7fe61d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for MTGProyectoFinal.RemoteDataSourceImpl.getCards(name: Swift.String) async throws -&gt; Swift.Optional&lt;Swift.Array&lt;MTGProyectoFinal.Card&gt;&gt;"
+                  moduleName = "MTGProyectoFinal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ismaelsabriperez/Downloads/MTGProyectoFinal/MTGProyectoFinal/Data/Remote/Datasource/RemoteDatasourceImpl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "516">
+               </Location>
+               <Location
+                  uuid = "40C395A7-FAE5-4372-97C7-A3A00A6D32CA - 48d8c523f7fe61d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for MTGProyectoFinal.RemoteDataSourceImpl.getCards(name: Swift.String) async throws -&gt; Swift.Optional&lt;Swift.Array&lt;MTGProyectoFinal.Card&gt;&gt;"
+                  moduleName = "MTGProyectoFinal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ismaelsabriperez/Downloads/MTGProyectoFinal/MTGProyectoFinal/Data/Remote/Datasource/RemoteDatasourceImpl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "428">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
