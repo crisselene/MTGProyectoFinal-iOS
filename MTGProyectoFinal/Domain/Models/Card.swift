@@ -22,9 +22,10 @@ struct Card: Decodable, Hashable {
     let colors: [String]? //Blue, green, red, black, white or whithout color
     
     let manaCost: String //use cmc and colors to query
+
+    let type: String //supertypes types - subtypes. UTF8 ‘long dash’
     
-    let types: [String] //The card type. UTF8 ‘long dash’
-    
+    let types: [String]
     let supertypes: [String]?
     let subtypes: [String]?
     
@@ -34,18 +35,8 @@ struct Card: Decodable, Hashable {
     let power: String?
     let toughness: String?
     
-    //supertype type – subtype
-    func getAllTypesConcatenated() -> String {
-        let typesConcatenated = self.types.joined(separator: " ")
-        guard let supertypesConcatenated = self.supertypes?.joined(separator: " ") else { return " " }
-        guard let subtypesConcatenated = self.subtypes?.joined(separator: " ") else { return " " }
-        
-        let allTypesConcatenated: String = supertypesConcatenated + " " + typesConcatenated + " - " + subtypesConcatenated
-        
-        return allTypesConcatenated
-    }
     
-    func transformManaCostStringToManaIcons() {
+    func replaceTextWithSymbols() {
         //example: "{3}{W}{R}"
         var includingSpacesToSplit = self.manaCost.replacingOccurrences(of: "}", with: " ")
         var arrayOfManaCostSplited = includingSpacesToSplit.components(separatedBy: " ")

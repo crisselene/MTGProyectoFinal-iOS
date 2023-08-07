@@ -40,7 +40,7 @@ struct CardCellView: View {
                         //.font(.title3)
                         .font(.system(size: 16))
                    
-                    Text(card.getAllTypesConcatenated())
+                    Text(card.type)
                             .font(.system(size: 14))
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .lineLimit(3)
@@ -58,7 +58,7 @@ struct CardCellView: View {
 struct CardCellView_Previews: PreviewProvider {
     static var previews: some View {
         CardCellView(
-            card: Card( imageUrl:  "https://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=409741&type=card" , name: "Archangel Avacyn", text: "Flash\nFlying, vigilance\nWhen Archangel Avacyn enters the battlefield, creatures you control gain indestructible until end of turn.\nWhen a non-Angel creature you control dies, transform Archangel Avacyn at the beginning of the next upkeep.", cmc: 1, colors: ["holi","adios"], manaCost: "{w}", types: ["Creature", "Artifact"], supertypes: ["Legendary"], subtypes:["Angel"], rarity: "holi", power: "holi", toughness: "holi")
+            card: Card( imageUrl:  "https://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=409741&type=card" , name: "Archangel Avacyn", text: "Flash\nFlying, vigilance\nWhen Archangel Avacyn enters the battlefield, creatures you control gain indestructible until end of turn.\nWhen a non-Angel creature you control dies, transform Archangel Avacyn at the beginning of the next upkeep.", cmc: 1, colors: ["holi","adios"], manaCost: "{w}", type: "Legendary Creature - Angel", types: ["Creature", "Artifact"], supertypes: ["Legendary"], subtypes:["Angel"], rarity: "holi", power: "holi", toughness: "holi")
         )
 
     }

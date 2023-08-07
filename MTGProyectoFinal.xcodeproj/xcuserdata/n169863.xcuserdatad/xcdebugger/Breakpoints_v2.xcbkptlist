@@ -14,9 +14,9 @@
             filePath = "MTGProyectoFinal/Data/Remote/Datasource/RemoteDatasourceImpl.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "getCards(name:)"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "getCards()"
             landmarkType = "7">
             <Locations>
                <Location
@@ -157,7 +157,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "22"
             endingLineNumber = "22"
-            landmarkName = "getCards(name:)"
+            landmarkName = "getCards()"
             landmarkType = "7">
             <Locations>
                <Location
@@ -233,9 +233,9 @@
             filePath = "MTGProyectoFinal/Data/Remote/Datasource/RemoteDatasourceImpl.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
-            landmarkName = "getCards(name:)"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "getCards()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -249,9 +249,9 @@
             filePath = "MTGProyectoFinal/Data/Remote/Datasource/RemoteDatasourceImpl.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
-            landmarkName = "getCards(name:)"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "getCards()"
             landmarkType = "7">
             <Locations>
                <Location
@@ -313,6 +313,99 @@
                   startingLineNumber = "32"
                   endingLineNumber = "32"
                   offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B7C4301-40B2-4E6B-B2C1-A6805CE7D5FF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MTGProyectoFinal/Presentation/Home/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "init(repository:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4B7C4301-40B2-4E6B-B2C1-A6805CE7D5FF - 88574558fb49f4d8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in MTGProyectoFinal.HomeViewModel.init(repository: MTGProyectoFinal.RepositoryProtocol) -&gt; MTGProyectoFinal.HomeViewModel"
+                  moduleName = "MTGProyectoFinal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/n169863/Library/CloudStorage/OneDrive-SantanderOffice365/Escritorio/iOS-Training-23-3T/MTGProyectoFinal/MTGProyectoFinaliOS/MTGProyectoFinal/Presentation/Home/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "248">
+               </Location>
+               <Location
+                  uuid = "4B7C4301-40B2-4E6B-B2C1-A6805CE7D5FF - 3f937f7dc44ca238"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 @Swift.MainActor () -&gt; () in MTGProyectoFinal.HomeViewModel.init(repository: MTGProyectoFinal.RepositoryProtocol) -&gt; MTGProyectoFinal.HomeViewModel"
+                  moduleName = "MTGProyectoFinal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/n169863/Library/CloudStorage/OneDrive-SantanderOffice365/Escritorio/iOS-Training-23-3T/MTGProyectoFinal/MTGProyectoFinaliOS/MTGProyectoFinal/Presentation/Home/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "952">
+               </Location>
+               <Location
+                  uuid = "4B7C4301-40B2-4E6B-B2C1-A6805CE7D5FF - e38820c92f102c39"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 @Swift.MainActor () -&gt; () in MTGProyectoFinal.HomeViewModel.init(repository: MTGProyectoFinal.RepositoryProtocol) -&gt; MTGProyectoFinal.HomeViewModel"
+                  moduleName = "MTGProyectoFinal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/n169863/Library/CloudStorage/OneDrive-SantanderOffice365/Escritorio/iOS-Training-23-3T/MTGProyectoFinal/MTGProyectoFinaliOS/MTGProyectoFinal/Presentation/Home/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "956">
+               </Location>
+               <Location
+                  uuid = "4B7C4301-40B2-4E6B-B2C1-A6805CE7D5FF - 3f937f7dc44ca238"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 @Swift.MainActor () -&gt; () in MTGProyectoFinal.HomeViewModel.init(repository: MTGProyectoFinal.RepositoryProtocol) -&gt; MTGProyectoFinal.HomeViewModel"
+                  moduleName = "MTGProyectoFinal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/n169863/Library/CloudStorage/OneDrive-SantanderOffice365/Escritorio/iOS-Training-23-3T/MTGProyectoFinal/MTGProyectoFinaliOS/MTGProyectoFinal/Presentation/Home/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "884">
+               </Location>
+               <Location
+                  uuid = "4B7C4301-40B2-4E6B-B2C1-A6805CE7D5FF - e38820c92f102c39"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 @Swift.MainActor () -&gt; () in MTGProyectoFinal.HomeViewModel.init(repository: MTGProyectoFinal.RepositoryProtocol) -&gt; MTGProyectoFinal.HomeViewModel"
+                  moduleName = "MTGProyectoFinal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/n169863/Library/CloudStorage/OneDrive-SantanderOffice365/Escritorio/iOS-Training-23-3T/MTGProyectoFinal/MTGProyectoFinaliOS/MTGProyectoFinal/Presentation/Home/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "888">
                </Location>
             </Locations>
          </BreakpointContent>

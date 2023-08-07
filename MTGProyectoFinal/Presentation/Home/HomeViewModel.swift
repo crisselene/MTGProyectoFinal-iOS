@@ -17,14 +17,15 @@ final class HomeViewModel: ObservableObject {
         self.repository = repository
         DispatchQueue.main.async {
             Task {
-                guard let cardsFromApi = try? await repository.getCards(name: "") else {
+                guard let cardsFromApi = try? await repository.getCards() else {
                     self.cards = []
                     print("Unable to get cards from api")
                     return
                 }
-
                 //filter only cards with image
                 self.cards = cardsFromApi.filter({ $0.imageUrl != nil })
+                print(cardsFromApi.first?.getAllTypesConcatenated())
+                
             }
         }
     }

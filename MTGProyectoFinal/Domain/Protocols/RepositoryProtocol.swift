@@ -9,5 +9,6 @@ import Foundation
 import Combine
 
 protocol RepositoryProtocol {
-    func getCards(name: String) async throws -> [Card]?
+    func getCards() async throws -> [Card]?
+    func getSymbols() async throws -> [Symbol]?
 }

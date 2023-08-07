@@ -18,11 +18,12 @@ enum NetworkError: Error, Equatable {
 
 final class RemoteDataSourceImpl: RemoteDataSourceProtocol {
     
-    private let server: String = "https://api.magicthegathering.io/v1/cards"
+    private let cardsServer: String = "https://api.magicthegathering.io/v1/cards"
+    private let manaServer: String = "https://api.scryfall.com/symbology"
 
-    func getCards(name: String) async throws -> [Card]? {
+    func getCards() async throws -> [Card]? {
         // Get url session
-        guard let url = URL(string: "\(server)") else {
+        guard let url = URL(string: "\(cardsServer)") else {
             print("URL Error")
             return nil
         }
@@ -36,9 +37,29 @@ final class RemoteDataSourceImpl: RemoteDataSourceProtocol {
         } catch {
             print(error)
         }
-        print(allCardsData.cards.first?.name) // Log para comprobar que la decodificación ha sido satisfactoria
         
         return allCardsData.cards
     }
+    
+    func getSymbols() async throws -> [Symbol]? {
+        // Get url session
+        guard let url = URL(string: "\(manaServer)") else {
+            print("URL Error")
+            return nil
+        }
+        
+        
+        // Obetener la data de la llamada
+        let (data, _) = try await URLSession.shared.data(from: url)
+        var allSymbolsData: AllSymbols = AllSymbols(symbols: [])
+        do {
+            allSymbolsData = try JSONDecoder().decode(AllSymbols.self, from: data)
+        } catch {
+            print(error)
+        }
+        
+        return allSymbolsData.symbols
+    }
+    
 }
 

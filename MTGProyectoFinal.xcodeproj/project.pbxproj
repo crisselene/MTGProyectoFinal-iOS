@@ -25,6 +25,7 @@
 		ADB2D9272A7A5FC200A37E08 /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D9262A7A5FC200A37E08 /* RootViewModel.swift */; };
 		ADB2D92A2A7A708100A37E08 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D9292A7A708100A37E08 /* SplashView.swift */; };
 		ADB2D96A2A7D020700A37E08 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D9692A7D020700A37E08 /* DetailView.swift */; };
+		ADB2D96C2A7D29E300A37E08 /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D96B2A7D29E300A37E08 /* Symbol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		ADB2D9292A7A708100A37E08 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		ADB2D9672A7B91A700A37E08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		ADB2D9692A7D020700A37E08 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailView.swift; path = ../../../../../DetailView.swift; sourceTree = "<group>"; };
+		ADB2D96B2A7D29E300A37E08 /* Symbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				ADB2D90A2A79318200A37E08 /* Card.swift */,
+				ADB2D96B2A7D29E300A37E08 /* Symbol.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -390,6 +393,7 @@
 			files = (
 				ADB2D91F2A7A557F00A37E08 /* RemoteDataSourceProtocol.swift in Sources */,
 				ADB2D91D2A7A544B00A37E08 /* RepositoryImpl.swift in Sources */,
+				ADB2D96C2A7D29E300A37E08 /* Symbol.swift in Sources */,
 				ADB2D9162A7A4BD900A37E08 /* HomeViewModel.swift in Sources */,
 				ADB2D9222A7A55CE00A37E08 /* RemoteDatasourceImpl.swift in Sources */,
 				ADB2D90B2A79318200A37E08 /* Card.swift in Sources */,
