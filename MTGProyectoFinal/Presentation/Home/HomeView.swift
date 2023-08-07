@@ -17,12 +17,13 @@ struct HomeView: View {
     
     var body: some View {
         NavigationStack {
-            List (homeViewModel.cards, id: \.self){ card in
+            List (homeViewModel.filteredCards, id: \.self){ card in
                 NavigationLink(destination: DetailView(card: card)){
                     CardCellView(card: card)}
                 }
+            .navigationTitle("MTGuide") // Título de la lista
+            .searchable(text: $homeViewModel.searchText)
         }
-        .navigationTitle("MTGuide") // Título de la lista
     }
 }
 

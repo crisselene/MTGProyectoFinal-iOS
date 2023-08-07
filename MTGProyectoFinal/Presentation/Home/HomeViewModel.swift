@@ -12,6 +12,17 @@ final class HomeViewModel: ObservableObject {
     // MARK: Properties
     private let repository: RepositoryProtocol
     @Published var cards: [Card] = []
+    @Published var searchText: String = ""
+    
+    //computed property
+    var filteredCards: [Card] {
+        guard !searchText.isEmpty else { return cards }
+
+        return cards.filter { card in
+            card.name.lowercased().contains(searchText.lowercased()) ||             card.type.lowercased().contains(searchText.lowercased())
+            }
+        }
+    
     
     init(repository: RepositoryProtocol) {
         self.repository = repository
@@ -24,8 +35,6 @@ final class HomeViewModel: ObservableObject {
                 }
                 //filter only cards with image
                 self.cards = cardsFromApi.filter({ $0.imageUrl != nil })
-                print(cardsFromApi.first?.getAllTypesConcatenated())
-                
             }
         }
     }
