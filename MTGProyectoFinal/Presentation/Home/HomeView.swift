@@ -10,6 +10,7 @@ import SwiftUI
 struct HomeView: View {
     
     @ObservedObject var homeViewModel: HomeViewModel
+
     
     init(homeViewModel: HomeViewModel) {
         self.homeViewModel = homeViewModel
@@ -17,12 +18,25 @@ struct HomeView: View {
     
     var body: some View {
         NavigationStack {
-            List (homeViewModel.filteredCards, id: \.self){ card in
+            List (homeViewModel.searchedCards, id: \.self){ card in
                 NavigationLink(destination: DetailView(card: card, detailViewModel: DetailViewModel(repository: RepositoryImpl(remoteDataSource: RemoteDataSourceImpl())))){
                     CardCellView(card: card)}
                 }
             .navigationTitle("MTGuide") // Título de la lista
             .searchable(text: $homeViewModel.searchText)
+            .toolbar {
+                ToolbarItem {
+                    HStack(spacing: 0) {
+                        Picker("Card type", selection: $homeViewModel.selectedType){
+                            ForEach(CardsTypes.allCases) { type in
+                                Text(type.rawValue).tag(type)
+                            }
+                        }
+                        
+                    }
+                }
+            }
+            
         }
     }
 }

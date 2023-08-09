@@ -34,10 +34,10 @@ final class HomeViewModelTests: XCTestCase {
         sut?.cards = cards
         sut?.searchText = "searchedWord"
         //THEN
-        XCTAssertNotNil(sut?.filteredCards.first)
-        XCTAssertEqual(sut?.filteredCards.count, 2)
-        XCTAssertEqual(sut?.filteredCards.first?.name, "searchedWord")
-        XCTAssertTrue(((sut?.filteredCards.last?.type.contains("searchedWord")) != nil))
+        XCTAssertNotNil(sut?.searchedCards.first)
+        XCTAssertEqual(sut?.searchedCards.count, 2)
+        XCTAssertEqual(sut?.searchedCards.first?.name, "searchedWord")
+        XCTAssertTrue(((sut?.searchedCards.last?.type.contains("searchedWord")) != nil))
         
     }
     
@@ -50,9 +50,9 @@ final class HomeViewModelTests: XCTestCase {
         sut?.cards = cards
         sut?.searchText = ""
         //THEN
-        XCTAssertNotNil(sut?.filteredCards.first)
-        XCTAssertEqual(sut?.filteredCards.count, 3) //must show all cards because theres no filter word
-        XCTAssertEqual(sut?.filteredCards.first?.name, "one") //first must be one
+        XCTAssertNotNil(sut?.searchedCards.first)
+        XCTAssertEqual(sut?.searchedCards.count, 3) //must show all cards because theres no filter word
+        XCTAssertEqual(sut?.searchedCards.first?.name, "one") //first must be one
         
     }
 

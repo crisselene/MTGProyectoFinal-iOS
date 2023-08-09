@@ -25,6 +25,7 @@ extension LocalizedStringKey {
         "T": "TImage",
         "G": "GImage"
     ]
+    
 
     init(imageText: String) {
         var components = [Any]()
@@ -60,7 +61,6 @@ extension LocalizedStringKey {
                 interp.appendInterpolation(image.resizable())
             }
         }
-
         self.init(stringInterpolation: interp)
     }
 }

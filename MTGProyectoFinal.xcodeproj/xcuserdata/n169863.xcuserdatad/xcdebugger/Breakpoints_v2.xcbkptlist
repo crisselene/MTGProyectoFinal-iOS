@@ -313,8 +313,8 @@
             filePath = "../../DetailView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
@@ -339,14 +339,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "5675BC56-9C57-41F5-8AEC-89737DA38CA0"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MTGProyectoFinal/Data/Extensions/LocalizedStringKeyExtension.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
             landmarkName = "init(imageText:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -355,16 +355,64 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "04B2EDAF-93CE-425A-8806-1293F5B0BF1C"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MTGProyectoFinal/Data/Extensions/LocalizedStringKeyExtension.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
             landmarkName = "init(imageText:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "80D1FB85-80DB-4921-AF47-2575AE734618"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MTGProyectoFinal/Presentation/Home/HomeView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "80D1FB85-80DB-4921-AF47-2575AE734618 - dc2e04f7b88bb282"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.Picker&lt;SwiftUI.Text, MTGProyectoFinal.CardsTypes, SwiftUI.ForEach&lt;Swift.Array&lt;MTGProyectoFinal.CardsTypes&gt;, MTGProyectoFinal.CardsTypes, &lt;&lt;opaque return type of SwiftUI.View.tag&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Hashable&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 () -&gt; SwiftUI.HStack&lt;SwiftUI.Picker&lt;SwiftUI.Text, MTGProyectoFinal.CardsTypes, SwiftUI.ForEach&lt;Swift.Array&lt;MTGProyectoFinal.CardsTypes&gt;, MTGProyectoFinal.CardsTypes, &lt;&lt;opaque return type of SwiftUI.View.tag&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Hashable&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;&gt;&gt; in closure #2 () -&gt; &lt;&lt;opaque return type of static SwiftUI.ToolbarContentBuilder.buildBlock&lt;&#x3c4;_0_0 where &#x3c4;_0_0: SwiftUI.ToolbarContent&gt;(&#x3c4;_0_0) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in MTGProyectoFinal.HomeView.body.getter : some"
+                  moduleName = "MTGProyectoFinal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/n169863/Library/CloudStorage/OneDrive-SantanderOffice365/Escritorio/iOS-Training-23-3T/MTGProyectoFinal/MTGProyectoFinaliOS/MTGProyectoFinal/Presentation/Home/HomeView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "80D1FB85-80DB-4921-AF47-2575AE734618 - 442e17fd94fb4a34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;MTGProyectoFinal.CardsTypes&gt;, MTGProyectoFinal.CardsTypes, &lt;&lt;opaque return type of SwiftUI.View.tag&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Hashable&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.Picker&lt;SwiftUI.Text, MTGProyectoFinal.CardsTypes, SwiftUI.ForEach&lt;Swift.Array&lt;MTGProyectoFinal.CardsTypes&gt;, MTGProyectoFinal.CardsTypes, &lt;&lt;opaque return type of SwiftUI.View.tag&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Hashable&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 () -&gt; SwiftUI.HStack&lt;SwiftUI.Picker&lt;SwiftUI.Text, MTGProyectoFinal.CardsTypes, SwiftUI.ForEach&lt;Swift.Array&lt;MTGProyectoFinal.CardsTypes&gt;, MTGProyectoFinal.CardsTypes, &lt;&lt;opaque return type of SwiftUI.View.tag&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Hashable&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;&gt;&gt; in closure #2 () -&gt; &lt;&lt;opaque return type of static SwiftUI.ToolbarContentBuilder.buildBlock&lt;&#x3c4;_0_0 where &#x3c4;_0_0: SwiftUI.ToolbarContent&gt;(&#x3c4;_0_0) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in MTGProyectoFinal.HomeView.body.getter : some"
+                  moduleName = "MTGProyectoFinal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/n169863/Library/CloudStorage/OneDrive-SantanderOffice365/Escritorio/iOS-Training-23-3T/MTGProyectoFinal/MTGProyectoFinaliOS/MTGProyectoFinal/Presentation/Home/HomeView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "112">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -35,13 +35,10 @@ struct CardCellView: View {
                 
                 // Nombre y descripción alineados al principio
                 VStack (alignment: .leading, content: {
-                    Text(card.name)
-                        .fontWeight(.semibold)
-                        //.font(.title3)
-                        .font(.system(size: 16))
+                    Text(card.name).font(.custom("Palatino", size: 20)).bold()
                    
                     Text(card.type)
-                            .font(.system(size: 14))
+                            .font(.custom("Times New Roman", size: 16))
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .lineLimit(3)
                     
