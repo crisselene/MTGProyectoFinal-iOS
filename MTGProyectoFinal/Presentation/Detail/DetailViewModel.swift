@@ -7,7 +7,17 @@
 
 import SwiftUI
 import Combine
+import UIKit
 
-final class DetailViewModel {
+final class DetailViewModel: ObservableObject {
+    
+    // MARK: Properties
+    private let repository: RepositoryProtocol
+    
+    init(repository: RepositoryProtocol) {
+        self.repository = repository
+    }
     
 }
+
+

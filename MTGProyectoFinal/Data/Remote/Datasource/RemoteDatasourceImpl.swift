@@ -18,19 +18,23 @@ enum NetworkError: Error, Equatable {
 
 final class RemoteDataSourceImpl: RemoteDataSourceProtocol {
     
+    private let session: NetworkFetchingProtocol
     private let cardsServer: String = "https://api.magicthegathering.io/v1/cards"
-    private let manaServer: String = "https://api.scryfall.com/symbology"
 
+    init(session: NetworkFetchingProtocol = URLSession.shared) {
+        self.session = session
+    }
+    
     func getCards() async throws -> [Card]? {
+     
         // Get url session
-        guard let url = URL(string: "\(cardsServer)") else {
-            print("URL Error")
-            return nil
+        guard let url = getSessionCards() else {
+            throw NetworkError.malformedURL
         }
         
-        
         // Obetener la data de la llamada
-        let (data, _) = try await URLSession.shared.data(from: url)
+        let (data, _) = try await session.data(url: url)
+        
         var allCardsData: AllCards = AllCards(cards: [])
         do {
             allCardsData = try JSONDecoder().decode(AllCards.self, from: data)
@@ -41,25 +45,23 @@ final class RemoteDataSourceImpl: RemoteDataSourceProtocol {
         return allCardsData.cards
     }
     
-    func getSymbols() async throws -> [Symbol]? {
-        // Get url session
-        guard let url = URL(string: "\(manaServer)") else {
+}
+
+extension RemoteDataSourceImpl{
+    
+    func getSessionCards() -> URLRequest? {
+        // Get URL
+        // tratar los errores
+        guard let url = URL(string: "\(cardsServer)") else {
             print("URL Error")
             return nil
         }
-        
-        
-        // Obetener la data de la llamada
-        let (data, _) = try await URLSession.shared.data(from: url)
-        var allSymbolsData: AllSymbols = AllSymbols(symbols: [])
-        do {
-            allSymbolsData = try JSONDecoder().decode(AllSymbols.self, from: data)
-        } catch {
-            print(error)
-        }
-        
-        return allSymbolsData.symbols
+
+        // URL request
+        var urlRequest = URLRequest(url: url)
+        urlRequest.httpMethod = "GET"
+
+        return urlRequest
     }
-    
 }
 

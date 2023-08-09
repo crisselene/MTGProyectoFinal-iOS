@@ -8,11 +8,11 @@
 import Foundation
 import SwiftUI
 
-struct AllCards: Decodable{
+struct AllCards: Codable{
     let cards: [Card]
 }
 
-struct Card: Decodable, Hashable {
+struct Card: Codable, Hashable {
     let imageUrl: String?
     let name: String
     let text: String //description of habilities
@@ -35,14 +35,6 @@ struct Card: Decodable, Hashable {
     let power: String?
     let toughness: String?
     
-    
-    func replaceTextWithSymbols() {
-        //example: "{3}{W}{R}"
-        var includingSpacesToSplit = self.manaCost.replacingOccurrences(of: "}", with: " ")
-        var arrayOfManaCostSplited = includingSpacesToSplit.components(separatedBy: " ")
-        arrayOfManaCostSplited.popLast() //last will be empty
-        
-    }
 }
 
 

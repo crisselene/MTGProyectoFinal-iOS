@@ -18,7 +18,7 @@ struct HomeView: View {
     var body: some View {
         NavigationStack {
             List (homeViewModel.filteredCards, id: \.self){ card in
-                NavigationLink(destination: DetailView(card: card)){
+                NavigationLink(destination: DetailView(card: card, detailViewModel: DetailViewModel(repository: RepositoryImpl(remoteDataSource: RemoteDataSourceImpl())))){
                     CardCellView(card: card)}
                 }
             .navigationTitle("MTGuide") // Título de la lista

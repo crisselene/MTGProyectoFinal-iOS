@@ -22,8 +22,4 @@ final class RepositoryImpl: RepositoryProtocol {
         return try? await remoteDataSource.getCards()
     }
     
-    func getSymbols() async throws -> [Symbol]? {
-        return try? await remoteDataSource.getSymbols()
-    }
-    
 }

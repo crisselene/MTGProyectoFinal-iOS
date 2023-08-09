@@ -13,5 +13,4 @@ import Combine
 
 protocol RemoteDataSourceProtocol {
     func getCards() async throws -> [Card]?
-    func getSymbols() async throws -> [Symbol]? 
 }

@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "383F8400-79FC-4A75-8433-701FEA6F8514",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:MTGProyectoFinal.xcodeproj",
+      "identifier" : "ADB2D8DA2A792EF200A37E08",
+      "name" : "MTGProyectoFinal"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:MTGProyectoFinal.xcodeproj",
+        "identifier" : "ADB2D8EA2A792EF300A37E08",
+        "name" : "MTGProyectoFinalTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:MTGProyectoFinal.xcodeproj",
+        "identifier" : "ADB2D8F42A792EF300A37E08",
+        "name" : "MTGProyectoFinalUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

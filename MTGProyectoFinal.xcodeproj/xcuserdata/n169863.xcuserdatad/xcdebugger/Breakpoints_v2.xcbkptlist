@@ -14,8 +14,8 @@
             filePath = "MTGProyectoFinal/Data/Remote/Datasource/RemoteDatasourceImpl.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
             landmarkName = "getCards()"
             landmarkType = "7">
             <Locations>
@@ -63,84 +63,6 @@
                   startingLineNumber = "23"
                   endingLineNumber = "23"
                   offsetFromSymbolStart = "220">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A418D56B-8D03-4880-96BC-1C526DE4DC31"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MTGProyectoFinal/Presentation/Home/HomeViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
-            landmarkName = "init(repository:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "A418D56B-8D03-4880-96BC-1C526DE4DC31 - ecb721268b8ab563"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 @Swift.MainActor () -&gt; () in MTGProyectoFinal.HomeViewModel.init(repository: MTGProyectoFinal.RepositoryProtocol) -&gt; MTGProyectoFinal.HomeViewModel"
-                  moduleName = "MTGProyectoFinal"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/n169863/Library/CloudStorage/OneDrive-SantanderOffice365/Escritorio/iOS-Training-23-3T/MTGProyectoFinal/MTGProyectoFinal/MTGProyectoFinal/Presentation/Home/HomeViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "20"
-                  endingLineNumber = "20"
-                  offsetFromSymbolStart = "68">
-               </Location>
-               <Location
-                  uuid = "A418D56B-8D03-4880-96BC-1C526DE4DC31 - 452c7fb9d746546f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 @Swift.MainActor () -&gt; () in MTGProyectoFinal.HomeViewModel.init(repository: MTGProyectoFinal.RepositoryProtocol) -&gt; MTGProyectoFinal.HomeViewModel"
-                  moduleName = "MTGProyectoFinal"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/n169863/Library/CloudStorage/OneDrive-SantanderOffice365/Escritorio/iOS-Training-23-3T/MTGProyectoFinal/MTGProyectoFinal/MTGProyectoFinal/Presentation/Home/HomeViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "20"
-                  endingLineNumber = "20"
-                  offsetFromSymbolStart = "40">
-               </Location>
-               <Location
-                  uuid = "A418D56B-8D03-4880-96BC-1C526DE4DC31 - 24e199beb553b17d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 @Swift.MainActor () -&gt; () in MTGProyectoFinal.HomeViewModel.init(repository: MTGProyectoFinal.RepositoryProtocol) -&gt; MTGProyectoFinal.HomeViewModel"
-                  moduleName = "MTGProyectoFinal"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/n169863/Library/CloudStorage/OneDrive-SantanderOffice365/Escritorio/iOS-Training-23-3T/MTGProyectoFinal/MTGProyectoFinal/MTGProyectoFinal/Presentation/Home/HomeViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "20"
-                  endingLineNumber = "20"
-                  offsetFromSymbolStart = "64">
-               </Location>
-               <Location
-                  uuid = "A418D56B-8D03-4880-96BC-1C526DE4DC31 - f8fac60a5e0f3f7c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 @Swift.MainActor () -&gt; () in MTGProyectoFinal.HomeViewModel.init(repository: MTGProyectoFinal.RepositoryProtocol) -&gt; MTGProyectoFinal.HomeViewModel"
-                  moduleName = "MTGProyectoFinal"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/n169863/Library/CloudStorage/OneDrive-SantanderOffice365/Escritorio/iOS-Training-23-3T/MTGProyectoFinal/MTGProyectoFinal/MTGProyectoFinal/Presentation/Home/HomeViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "20"
-                  endingLineNumber = "20"
-                  offsetFromSymbolStart = "64">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -233,8 +155,8 @@
             filePath = "MTGProyectoFinal/Data/Remote/Datasource/RemoteDatasourceImpl.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
             landmarkName = "getCards()"
             landmarkType = "7">
          </BreakpointContent>
@@ -249,8 +171,8 @@
             filePath = "MTGProyectoFinal/Data/Remote/Datasource/RemoteDatasourceImpl.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "getCards()"
             landmarkType = "7">
             <Locations>
@@ -315,6 +237,134 @@
                   offsetFromSymbolStart = "36">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7722213C-51EB-477B-BEFB-2DE35F897B97"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MTGProyectoFinal/Presentation/Detail/DetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "init(repository:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7722213C-51EB-477B-BEFB-2DE35F897B97 - a31210c0dcf33c61"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MTGProyectoFinal.DetailViewModel.__allocating_init(repository: MTGProyectoFinal.RepositoryProtocol) -&gt; MTGProyectoFinal.DetailViewModel"
+                  moduleName = "MTGProyectoFinal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/n169863/Library/CloudStorage/OneDrive-SantanderOffice365/Escritorio/iOS-Training-23-3T/MTGProyectoFinal/MTGProyectoFinaliOS/MTGProyectoFinal/Presentation/Detail/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "7722213C-51EB-477B-BEFB-2DE35F897B97 - 94caeb7bf0c9eefe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MTGProyectoFinal.DetailViewModel.init(repository: MTGProyectoFinal.RepositoryProtocol) -&gt; MTGProyectoFinal.DetailViewModel"
+                  moduleName = "MTGProyectoFinal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/n169863/Library/CloudStorage/OneDrive-SantanderOffice365/Escritorio/iOS-Training-23-3T/MTGProyectoFinal/MTGProyectoFinaliOS/MTGProyectoFinal/Presentation/Detail/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "236">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "28748834-4418-4A6A-ADCA-4A4BF43AFBD6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MTGProyectoFinal/Presentation/Detail/DetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "init(repository:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "84946BDE-F80D-4B60-AB85-B7106DF8808C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../DetailView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A0D86734-5DC3-4238-91EC-A00834611EA3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MTGProyectoFinal/Data/Extensions/LocalizedStringKeyExtension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "symbolMap"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5675BC56-9C57-41F5-8AEC-89737DA38CA0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MTGProyectoFinal/Data/Extensions/LocalizedStringKeyExtension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "init(imageText:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "04B2EDAF-93CE-425A-8806-1293F5B0BF1C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MTGProyectoFinal/Data/Extensions/LocalizedStringKeyExtension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "init(imageText:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD66BFFC2A826AAD00BDBC71 /* NetworkFetchingMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD66BFFB2A826AAD00BDBC71 /* NetworkFetchingMock.swift */; };
+		AD66C0002A83913800BDBC71 /* LocalizedStringKeyExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD66BFFF2A83913800BDBC71 /* LocalizedStringKeyExtension.swift */; };
+		AD66C0022A8395DA00BDBC71 /* TextExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD66C0012A8395DA00BDBC71 /* TextExtension.swift */; };
+		AD66C0072A839C3C00BDBC71 /* LocalizedStringKeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD66C0062A839C3C00BDBC71 /* LocalizedStringKeyTests.swift */; };
 		ADB2D8DF2A792EF200A37E08 /* MTGProyectoFinalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D8DE2A792EF200A37E08 /* MTGProyectoFinalApp.swift */; };
 		ADB2D8E32A792EF300A37E08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADB2D8E22A792EF300A37E08 /* Assets.xcassets */; };
 		ADB2D8E62A792EF300A37E08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADB2D8E52A792EF300A37E08 /* Preview Assets.xcassets */; };
@@ -25,8 +29,13 @@
 		ADB2D9272A7A5FC200A37E08 /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D9262A7A5FC200A37E08 /* RootViewModel.swift */; };
 		ADB2D92A2A7A708100A37E08 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D9292A7A708100A37E08 /* SplashView.swift */; };
 		ADB2D96A2A7D020700A37E08 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D9692A7D020700A37E08 /* DetailView.swift */; };
-		ADB2D96C2A7D29E300A37E08 /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D96B2A7D29E300A37E08 /* Symbol.swift */; };
 		ADB2D96E2A80EBD000A37E08 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D96D2A80EBD000A37E08 /* DetailViewModel.swift */; };
+		ADB2D9702A821E7400A37E08 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D96F2A821E7400A37E08 /* HomeViewModelTests.swift */; };
+		ADB2D9742A82248500A37E08 /* MockRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D9732A82248500A37E08 /* MockRepository.swift */; };
+		ADB2D97B2A82314A00A37E08 /* RemoteDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D97A2A82314A00A37E08 /* RemoteDataSourceTests.swift */; };
+		ADB2D97D2A82407E00A37E08 /* URLProtocolMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D97C2A82407E00A37E08 /* URLProtocolMock.swift */; };
+		ADB2D9802A82415D00A37E08 /* URLSessionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D97F2A82415D00A37E08 /* URLSessionExtension.swift */; };
+		ADB2D9822A82438700A37E08 /* NetworkFetchingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D9812A82438700A37E08 /* NetworkFetchingProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD66BFFB2A826AAD00BDBC71 /* NetworkFetchingMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkFetchingMock.swift; sourceTree = "<group>"; };
+		AD66BFFF2A83913800BDBC71 /* LocalizedStringKeyExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedStringKeyExtension.swift; sourceTree = "<group>"; };
+		AD66C0012A8395DA00BDBC71 /* TextExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExtension.swift; sourceTree = "<group>"; };
+		AD66C0062A839C3C00BDBC71 /* LocalizedStringKeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedStringKeyTests.swift; sourceTree = "<group>"; };
 		ADB2D8DB2A792EF200A37E08 /* MTGProyectoFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTGProyectoFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB2D8DE2A792EF200A37E08 /* MTGProyectoFinalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTGProyectoFinalApp.swift; sourceTree = "<group>"; };
 		ADB2D8E22A792EF300A37E08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -69,8 +82,14 @@
 		ADB2D9292A7A708100A37E08 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		ADB2D9672A7B91A700A37E08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		ADB2D9692A7D020700A37E08 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailView.swift; path = ../../../../../DetailView.swift; sourceTree = "<group>"; };
-		ADB2D96B2A7D29E300A37E08 /* Symbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
 		ADB2D96D2A80EBD000A37E08 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		ADB2D96F2A821E7400A37E08 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
+		ADB2D9732A82248500A37E08 /* MockRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRepository.swift; sourceTree = "<group>"; };
+		ADB2D97A2A82314A00A37E08 /* RemoteDataSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataSourceTests.swift; sourceTree = "<group>"; };
+		ADB2D97C2A82407E00A37E08 /* URLProtocolMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLProtocolMock.swift; sourceTree = "<group>"; };
+		ADB2D97F2A82415D00A37E08 /* URLSessionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionExtension.swift; sourceTree = "<group>"; };
+		ADB2D9812A82438700A37E08 /* NetworkFetchingProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkFetchingProtocol.swift; sourceTree = "<group>"; };
+		ADB2D9832A824B6A00A37E08 /* MTGProyectoFinal.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = MTGProyectoFinal.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +117,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD66C0032A839A8700BDBC71 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AD66C0062A839C3C00BDBC71 /* LocalizedStringKeyTests.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		ADB2D8D22A792EF200A37E08 = {
 			isa = PBXGroup;
 			children = (
+				ADB2D9832A824B6A00A37E08 /* MTGProyectoFinal.xctestplan */,
 				ADB2D8DD2A792EF200A37E08 /* MTGProyectoFinal */,
 				ADB2D8EE2A792EF300A37E08 /* MTGProyectoFinalTests */,
 				ADB2D8F82A792EF300A37E08 /* MTGProyectoFinalUITests */,
@@ -143,6 +171,8 @@
 		ADB2D8EE2A792EF300A37E08 /* MTGProyectoFinalTests */ = {
 			isa = PBXGroup;
 			children = (
+				ADB2D9752A8226B700A37E08 /* Suts */,
+				ADB2D9712A82245400A37E08 /* TestUtils */,
 				ADB2D8EF2A792EF300A37E08 /* MTGProyectoFinalTests.swift */,
 			);
 			path = MTGProyectoFinalTests;
@@ -170,7 +200,6 @@
 			isa = PBXGroup;
 			children = (
 				ADB2D90A2A79318200A37E08 /* Card.swift */,
-				ADB2D96B2A7D29E300A37E08 /* Symbol.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -209,6 +238,7 @@
 			children = (
 				ADB2D9182A7A530800A37E08 /* RepositoryProtocol.swift */,
 				ADB2D91E2A7A557F00A37E08 /* RemoteDataSourceProtocol.swift */,
+				ADB2D9812A82438700A37E08 /* NetworkFetchingProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -216,6 +246,7 @@
 		ADB2D91A2A7A53F300A37E08 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				ADB2D97E2A82414400A37E08 /* Extensions */,
 				ADB2D91B2A7A53FB00A37E08 /* Remote */,
 				ADB2D91C2A7A544B00A37E08 /* RepositoryImpl.swift */,
 			);
@@ -262,6 +293,76 @@
 				ADB2D96D2A80EBD000A37E08 /* DetailViewModel.swift */,
 			);
 			path = Detail;
+			sourceTree = "<group>";
+		};
+		ADB2D9712A82245400A37E08 /* TestUtils */ = {
+			isa = PBXGroup;
+			children = (
+				ADB2D9722A82245F00A37E08 /* Mocks */,
+			);
+			path = TestUtils;
+			sourceTree = "<group>";
+		};
+		ADB2D9722A82245F00A37E08 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				ADB2D9732A82248500A37E08 /* MockRepository.swift */,
+				ADB2D97C2A82407E00A37E08 /* URLProtocolMock.swift */,
+				AD66BFFB2A826AAD00BDBC71 /* NetworkFetchingMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		ADB2D9752A8226B700A37E08 /* Suts */ = {
+			isa = PBXGroup;
+			children = (
+				ADB2D9782A8230E100A37E08 /* Data */,
+				ADB2D9762A8226D700A37E08 /* Presentation */,
+			);
+			path = Suts;
+			sourceTree = "<group>";
+		};
+		ADB2D9762A8226D700A37E08 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				ADB2D9772A8226E200A37E08 /* Home */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		ADB2D9772A8226E200A37E08 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				ADB2D96F2A821E7400A37E08 /* HomeViewModelTests.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		ADB2D9782A8230E100A37E08 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AD66C0032A839A8700BDBC71 /* Extensions */,
+				ADB2D9792A8230EF00A37E08 /* Remote */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		ADB2D9792A8230EF00A37E08 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				ADB2D97A2A82314A00A37E08 /* RemoteDataSourceTests.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		ADB2D97E2A82414400A37E08 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ADB2D97F2A82415D00A37E08 /* URLSessionExtension.swift */,
+				AD66BFFF2A83913800BDBC71 /* LocalizedStringKeyExtension.swift */,
+				AD66C0012A8395DA00BDBC71 /* TextExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -396,18 +497,21 @@
 			files = (
 				ADB2D91F2A7A557F00A37E08 /* RemoteDataSourceProtocol.swift in Sources */,
 				ADB2D91D2A7A544B00A37E08 /* RepositoryImpl.swift in Sources */,
-				ADB2D96C2A7D29E300A37E08 /* Symbol.swift in Sources */,
 				ADB2D9162A7A4BD900A37E08 /* HomeViewModel.swift in Sources */,
+				AD66C0002A83913800BDBC71 /* LocalizedStringKeyExtension.swift in Sources */,
 				ADB2D9222A7A55CE00A37E08 /* RemoteDatasourceImpl.swift in Sources */,
 				ADB2D90B2A79318200A37E08 /* Card.swift in Sources */,
 				ADB2D92A2A7A708100A37E08 /* SplashView.swift in Sources */,
 				ADB2D8DF2A792EF200A37E08 /* MTGProyectoFinalApp.swift in Sources */,
+				ADB2D9802A82415D00A37E08 /* URLSessionExtension.swift in Sources */,
 				ADB2D96A2A7D020700A37E08 /* DetailView.swift in Sources */,
 				ADB2D9142A7A4B9C00A37E08 /* HomeView.swift in Sources */,
 				ADB2D9102A79390800A37E08 /* CardCellView.swift in Sources */,
 				ADB2D9192A7A530800A37E08 /* RepositoryProtocol.swift in Sources */,
+				ADB2D9822A82438700A37E08 /* NetworkFetchingProtocol.swift in Sources */,
 				ADB2D9272A7A5FC200A37E08 /* RootViewModel.swift in Sources */,
 				ADB2D96E2A80EBD000A37E08 /* DetailViewModel.swift in Sources */,
+				AD66C0022A8395DA00BDBC71 /* TextExtension.swift in Sources */,
 				ADB2D9252A7A5DD400A37E08 /* RootView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,7 +520,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADB2D97D2A82407E00A37E08 /* URLProtocolMock.swift in Sources */,
+				AD66C0072A839C3C00BDBC71 /* LocalizedStringKeyTests.swift in Sources */,
+				ADB2D97B2A82314A00A37E08 /* RemoteDataSourceTests.swift in Sources */,
+				AD66BFFC2A826AAD00BDBC71 /* NetworkFetchingMock.swift in Sources */,
 				ADB2D8F02A792EF300A37E08 /* MTGProyectoFinalTests.swift in Sources */,
+				ADB2D9742A82248500A37E08 /* MockRepository.swift in Sources */,
+				ADB2D9702A821E7400A37E08 /* HomeViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,7 +10,7 @@ import Combine
 
 final class HomeViewModel: ObservableObject {
     // MARK: Properties
-    private let repository: RepositoryProtocol
+    let repository: RepositoryProtocol
     @Published var cards: [Card] = []
     @Published var searchText: String = ""
     
@@ -26,15 +26,20 @@ final class HomeViewModel: ObservableObject {
     
     init(repository: RepositoryProtocol) {
         self.repository = repository
+        getCards()
+    }
+    
+    func getCards(completion: @escaping () -> () = {}) {
         DispatchQueue.main.async {
             Task {
-                guard let cardsFromApi = try? await repository.getCards() else {
+                guard let cardsFromApi = try? await self.repository.getCards() else {
                     self.cards = []
                     print("Unable to get cards from api")
                     return
                 }
                 //filter only cards with image
                 self.cards = cardsFromApi.filter({ $0.imageUrl != nil })
+                completion()
             }
         }
     }
