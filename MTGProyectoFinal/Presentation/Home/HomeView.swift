@@ -10,7 +10,7 @@ import SwiftUI
 struct HomeView: View {
     
     @ObservedObject var homeViewModel: HomeViewModel
-
+    
     
     init(homeViewModel: HomeViewModel) {
         self.homeViewModel = homeViewModel
@@ -21,15 +21,26 @@ struct HomeView: View {
             List (homeViewModel.searchedCards, id: \.self){ card in
                 NavigationLink(destination: DetailView(card: card, detailViewModel: DetailViewModel(repository: RepositoryImpl(remoteDataSource: RemoteDataSourceImpl())))){
                     CardCellView(card: card)}
-                }
+            }
             .navigationTitle("MTGuide") // Título de la lista
             .searchable(text: $homeViewModel.searchText)
             .toolbar {
                 ToolbarItem {
                     HStack(spacing: 0) {
+                        
                         Picker("Card type", selection: $homeViewModel.selectedType){
                             ForEach(CardsTypes.allCases) { type in
-                                Text(type.rawValue).tag(type)
+                                if(type == .all){
+                                    HStack{
+                                        Image(systemName: "line.horizontal.3.decrease")
+                                        Text(type.rawValue).tag(type)
+                                    }.frame(width: 10, height: 10)
+                                    
+                                }else{
+                                    Text(type.rawValue).tag(type)
+                                }
+                               
+                                
                             }
                         }
                         

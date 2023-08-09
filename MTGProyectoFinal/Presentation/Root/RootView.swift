@@ -17,10 +17,10 @@ struct RootView: View {
         switch (rootViewModel.status) {
             
         case Status.none:
-            SplashView2()
+            SplashView()
         
         case Status.loading:
-            SplashView2()
+            SplashView()
         
         case Status.error(error: let errorString):
             Text("Error \(errorString)")

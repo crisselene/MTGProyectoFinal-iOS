@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Lottie
 
 struct SplashView: View {
     
@@ -17,18 +18,10 @@ struct SplashView: View {
     var body: some View {
         
         VStack{
-            Image("splashImage")
-            Text("MTGuide").font(.custom("Palatino", size: 32)).bold()
-        } .scaleEffect(size)
-            .opacity(opacity)
+            Text("MTGuide").font(.custom("Palatino", size: 40)).bold()
+            LottieView(loopMode: .loop).scaleEffect(size).frame(height: 300)
+        }
             .onAppear {
-                withAnimation(.easeIn(duration: 1.2)){
-                    self.size = 1.2
-                    self.opacity = 1.0
-                }
-                
-            }
-                .onAppear {
                     DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
                         rootViewModel.onSplashDone()
                     }
@@ -36,6 +29,22 @@ struct SplashView: View {
     }
         
     
+}
+
+struct LottieView: UIViewRepresentable{
+    
+    
+    let loopMode : LottieLoopMode
+    
+    func updateUIView(_ uiView: Lottie.LottieAnimationView, context: Context) {}
+    
+    func makeUIView(context: Context) -> Lottie.LottieAnimationView {
+        let animationView = LottieAnimationView(name: "mtgLottieanimation")
+        animationView.play()
+        animationView.loopMode = loopMode
+        animationView.contentMode = .scaleAspectFit
+        return animationView
+    }
 }
 
 struct SplashViewPreviews: PreviewProvider {

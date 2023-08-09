@@ -11,7 +11,7 @@
 		AD66C0002A83913800BDBC71 /* LocalizedStringKeyExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD66BFFF2A83913800BDBC71 /* LocalizedStringKeyExtension.swift */; };
 		AD66C0022A8395DA00BDBC71 /* TextExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD66C0012A8395DA00BDBC71 /* TextExtension.swift */; };
 		AD66C00A2A83BBCA00BDBC71 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = AD66C0092A83BBCA00BDBC71 /* Lottie */; };
-		AD66C00C2A83BC3D00BDBC71 /* SplashView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD66C00B2A83BC3D00BDBC71 /* SplashView2.swift */; };
+		AD66C00C2A83BC3D00BDBC71 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD66C00B2A83BC3D00BDBC71 /* SplashView.swift */; };
 		AD66C00F2A83BD9D00BDBC71 /* mtgLottieanimation.json in Resources */ = {isa = PBXBuildFile; fileRef = AD66C00E2A83BD9D00BDBC71 /* mtgLottieanimation.json */; };
 		ADB2D8DF2A792EF200A37E08 /* MTGProyectoFinalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D8DE2A792EF200A37E08 /* MTGProyectoFinalApp.swift */; };
 		ADB2D8E32A792EF300A37E08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADB2D8E22A792EF300A37E08 /* Assets.xcassets */; };
@@ -29,7 +29,6 @@
 		ADB2D9222A7A55CE00A37E08 /* RemoteDatasourceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D9212A7A55CE00A37E08 /* RemoteDatasourceImpl.swift */; };
 		ADB2D9252A7A5DD400A37E08 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D9242A7A5DD400A37E08 /* RootView.swift */; };
 		ADB2D9272A7A5FC200A37E08 /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D9262A7A5FC200A37E08 /* RootViewModel.swift */; };
-		ADB2D92A2A7A708100A37E08 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D9292A7A708100A37E08 /* SplashView.swift */; };
 		ADB2D96A2A7D020700A37E08 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D9692A7D020700A37E08 /* DetailView.swift */; };
 		ADB2D96E2A80EBD000A37E08 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D96D2A80EBD000A37E08 /* DetailViewModel.swift */; };
 		ADB2D9702A821E7400A37E08 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D96F2A821E7400A37E08 /* HomeViewModelTests.swift */; };
@@ -61,7 +60,7 @@
 		AD66BFFB2A826AAD00BDBC71 /* NetworkFetchingMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkFetchingMock.swift; sourceTree = "<group>"; };
 		AD66BFFF2A83913800BDBC71 /* LocalizedStringKeyExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedStringKeyExtension.swift; sourceTree = "<group>"; };
 		AD66C0012A8395DA00BDBC71 /* TextExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExtension.swift; sourceTree = "<group>"; };
-		AD66C00B2A83BC3D00BDBC71 /* SplashView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView2.swift; sourceTree = "<group>"; };
+		AD66C00B2A83BC3D00BDBC71 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		AD66C00E2A83BD9D00BDBC71 /* mtgLottieanimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mtgLottieanimation.json; sourceTree = "<group>"; };
 		ADB2D8DB2A792EF200A37E08 /* MTGProyectoFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTGProyectoFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB2D8DE2A792EF200A37E08 /* MTGProyectoFinalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTGProyectoFinalApp.swift; sourceTree = "<group>"; };
@@ -82,7 +81,6 @@
 		ADB2D9212A7A55CE00A37E08 /* RemoteDatasourceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDatasourceImpl.swift; sourceTree = "<group>"; };
 		ADB2D9242A7A5DD400A37E08 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		ADB2D9262A7A5FC200A37E08 /* RootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModel.swift; sourceTree = "<group>"; };
-		ADB2D9292A7A708100A37E08 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		ADB2D9672A7B91A700A37E08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		ADB2D9692A7D020700A37E08 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailView.swift; path = ../../../../../DetailView.swift; sourceTree = "<group>"; };
 		ADB2D96D2A80EBD000A37E08 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
@@ -286,8 +284,7 @@
 		ADB2D9282A7A6E2100A37E08 /* Splash */ = {
 			isa = PBXGroup;
 			children = (
-				ADB2D9292A7A708100A37E08 /* SplashView.swift */,
-				AD66C00B2A83BC3D00BDBC71 /* SplashView2.swift */,
+				AD66C00B2A83BC3D00BDBC71 /* SplashView.swift */,
 			);
 			path = Splash;
 			sourceTree = "<group>";
@@ -513,7 +510,6 @@
 				AD66C0002A83913800BDBC71 /* LocalizedStringKeyExtension.swift in Sources */,
 				ADB2D9222A7A55CE00A37E08 /* RemoteDatasourceImpl.swift in Sources */,
 				ADB2D90B2A79318200A37E08 /* Card.swift in Sources */,
-				ADB2D92A2A7A708100A37E08 /* SplashView.swift in Sources */,
 				ADB2D8DF2A792EF200A37E08 /* MTGProyectoFinalApp.swift in Sources */,
 				ADB2D9802A82415D00A37E08 /* URLSessionExtension.swift in Sources */,
 				ADB2D96A2A7D020700A37E08 /* DetailView.swift in Sources */,
@@ -523,7 +519,7 @@
 				ADB2D9822A82438700A37E08 /* NetworkFetchingProtocol.swift in Sources */,
 				ADB2D9272A7A5FC200A37E08 /* RootViewModel.swift in Sources */,
 				ADB2D96E2A80EBD000A37E08 /* DetailViewModel.swift in Sources */,
-				AD66C00C2A83BC3D00BDBC71 /* SplashView2.swift in Sources */,
+				AD66C00C2A83BC3D00BDBC71 /* SplashView.swift in Sources */,
 				AD66C0022A8395DA00BDBC71 /* TextExtension.swift in Sources */,
 				ADB2D9252A7A5DD400A37E08 /* RootView.swift in Sources */,
 			);

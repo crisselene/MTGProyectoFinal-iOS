@@ -33,7 +33,7 @@ final class HomeViewModel: ObservableObject {
         guard !searchText.isEmpty else {
             return cardTypeSelected
         }
-        return cards.filter { card in
+        return cardTypeSelected.filter { card in
             card.name.lowercased().contains(searchText.lowercased()) ||             card.type.lowercased().contains(searchText.lowercased())
             }
         }

@@ -18,6 +18,7 @@ extension LocalizedStringKey {
         "5": "5Image",
         "6": "6Image",
         "7": "7Image",
+        "X": "XImage",
         "B": "BImage",
         "W": "WImage",
         "R": "RImage",
