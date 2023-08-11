@@ -48,7 +48,8 @@ struct CardCellView: View {
                 
                 Spacer() // Spacer para apretar todo a la izquierda
             })
-        })
+        }).accessibilityLabel(card.name+card.type)
+            .accessibilityHint("press to see the details")
         
     }
 }

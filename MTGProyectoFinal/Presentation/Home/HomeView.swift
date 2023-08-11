@@ -44,7 +44,7 @@ struct HomeView: View {
                             }
                         }
                         
-                    }
+                    }.accessibilityLabel("filter").accessibilityHint("Press to filter by type")
                 }
             }
             
