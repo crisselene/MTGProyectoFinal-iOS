@@ -12,7 +12,7 @@ import Foundation
 final class MockRespository: RepositoryProtocol {
     
     func getCards() async throws -> [MTGProyectoFinal.Card]? {
-        return [Card(imageUrl: "", name: "uno", text: "", cmc: 0, colors: nil, manaCost: "", type: "", types: [""], supertypes: nil, subtypes: nil, rarity: "", power: "", toughness: "")]
+        return [Card(imageUrl: "", name: "one", text: "", cmc: 0, colors: nil, manaCost: "", type: "", types: [""], supertypes: nil, subtypes: nil, rarity: "", power: "", toughness: "")]
     }
 
 }

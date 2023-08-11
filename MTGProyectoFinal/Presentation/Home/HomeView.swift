@@ -19,7 +19,7 @@ struct HomeView: View {
     var body: some View {
         NavigationStack {
             List (homeViewModel.searchedCards, id: \.self){ card in
-                NavigationLink(destination: DetailView(card: card, detailViewModel: DetailViewModel(repository: RepositoryImpl(remoteDataSource: RemoteDataSourceImpl())))){
+                NavigationLink(destination: DetailView( detailViewModel: DetailViewModel(card: card,repository: homeViewModel.repository))){
                     CardCellView(card: card)}
             }
             .navigationTitle("MTGuide") // Título de la lista

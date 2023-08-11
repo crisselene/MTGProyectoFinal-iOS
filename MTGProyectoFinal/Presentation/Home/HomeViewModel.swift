@@ -43,7 +43,6 @@ final class HomeViewModel: ObservableObject {
         case .all:
             return cards
         default:
-            print(selectedType.rawValue)
             return cards.filter {$0.type.contains(selectedType.rawValue)}
         }
     }

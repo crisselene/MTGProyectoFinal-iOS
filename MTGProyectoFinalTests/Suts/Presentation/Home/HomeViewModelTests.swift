@@ -56,7 +56,7 @@ final class HomeViewModelTests: XCTestCase {
         
     }
 
-    func testPerformanceExample() throws {
+    func testHomeViewModel_whenGettingCards_expectReturnOneCardFromMockRepository() throws {
         let expectation = XCTestExpectation(description: "ERROR")
         sut?.getCards(){
             expectation.fulfill()

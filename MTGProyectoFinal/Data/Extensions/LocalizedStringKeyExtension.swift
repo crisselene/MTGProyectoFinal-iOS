@@ -44,7 +44,6 @@ extension LocalizedStringKey {
             }
             if let name = name {
                 if start != nil, end != nil, let imageName = Self.symbolMap[name] {
-                    print(imageName)
                     components.append(Image(imageName))
                     length += 1
                 } else {

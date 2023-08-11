@@ -12,9 +12,11 @@ import UIKit
 final class DetailViewModel: ObservableObject {
     
     // MARK: Properties
+    var card: Card
     private let repository: RepositoryProtocol
     
-    init(repository: RepositoryProtocol) {
+    init(card: Card, repository: RepositoryProtocol) {
+        self.card = card
         self.repository = repository
     }
     
