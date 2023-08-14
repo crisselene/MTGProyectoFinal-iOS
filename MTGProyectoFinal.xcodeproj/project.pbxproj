@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD0238C92A8A489F003E2C08 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0238C82A8A489F003E2C08 /* DetailView.swift */; };
 		AD66BFFC2A826AAD00BDBC71 /* NetworkFetchingMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD66BFFB2A826AAD00BDBC71 /* NetworkFetchingMock.swift */; };
 		AD66C0002A83913800BDBC71 /* LocalizedStringKeyExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD66BFFF2A83913800BDBC71 /* LocalizedStringKeyExtension.swift */; };
 		AD66C0022A8395DA00BDBC71 /* TextExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD66C0012A8395DA00BDBC71 /* TextExtension.swift */; };
@@ -29,7 +30,6 @@
 		ADB2D9222A7A55CE00A37E08 /* RemoteDatasourceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D9212A7A55CE00A37E08 /* RemoteDatasourceImpl.swift */; };
 		ADB2D9252A7A5DD400A37E08 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D9242A7A5DD400A37E08 /* RootView.swift */; };
 		ADB2D9272A7A5FC200A37E08 /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D9262A7A5FC200A37E08 /* RootViewModel.swift */; };
-		ADB2D96A2A7D020700A37E08 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D9692A7D020700A37E08 /* DetailView.swift */; };
 		ADB2D96E2A80EBD000A37E08 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D96D2A80EBD000A37E08 /* DetailViewModel.swift */; };
 		ADB2D9702A821E7400A37E08 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D96F2A821E7400A37E08 /* HomeViewModelTests.swift */; };
 		ADB2D9742A82248500A37E08 /* MockRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2D9732A82248500A37E08 /* MockRepository.swift */; };
@@ -57,6 +57,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD0238C82A8A489F003E2C08 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		AD66BFFB2A826AAD00BDBC71 /* NetworkFetchingMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkFetchingMock.swift; sourceTree = "<group>"; };
 		AD66BFFF2A83913800BDBC71 /* LocalizedStringKeyExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedStringKeyExtension.swift; sourceTree = "<group>"; };
 		AD66C0012A8395DA00BDBC71 /* TextExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExtension.swift; sourceTree = "<group>"; };
@@ -82,7 +83,6 @@
 		ADB2D9242A7A5DD400A37E08 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		ADB2D9262A7A5FC200A37E08 /* RootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModel.swift; sourceTree = "<group>"; };
 		ADB2D9672A7B91A700A37E08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		ADB2D9692A7D020700A37E08 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailView.swift; path = ../../../../../DetailView.swift; sourceTree = "<group>"; };
 		ADB2D96D2A80EBD000A37E08 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		ADB2D96F2A821E7400A37E08 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
 		ADB2D9732A82248500A37E08 /* MockRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRepository.swift; sourceTree = "<group>"; };
@@ -292,8 +292,8 @@
 		ADB2D9682A7D00E800A37E08 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
-				ADB2D9692A7D020700A37E08 /* DetailView.swift */,
 				ADB2D96D2A80EBD000A37E08 /* DetailViewModel.swift */,
+				AD0238C82A8A489F003E2C08 /* DetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -512,8 +512,8 @@
 				ADB2D90B2A79318200A37E08 /* Card.swift in Sources */,
 				ADB2D8DF2A792EF200A37E08 /* MTGProyectoFinalApp.swift in Sources */,
 				ADB2D9802A82415D00A37E08 /* URLSessionExtension.swift in Sources */,
-				ADB2D96A2A7D020700A37E08 /* DetailView.swift in Sources */,
 				ADB2D9142A7A4B9C00A37E08 /* HomeView.swift in Sources */,
+				AD0238C92A8A489F003E2C08 /* DetailView.swift in Sources */,
 				ADB2D9102A79390800A37E08 /* CardCellView.swift in Sources */,
 				ADB2D9192A7A530800A37E08 /* RepositoryProtocol.swift in Sources */,
 				ADB2D9822A82438700A37E08 /* NetworkFetchingProtocol.swift in Sources */,
